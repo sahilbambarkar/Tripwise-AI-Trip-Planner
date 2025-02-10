@@ -1,66 +1,77 @@
-<h1>Tripwise - AI-Powered Trip Planner 🌍✈️</h1>
-<h2>Tripwise is a cutting-edge trip planning application that leverages the power of AI to create personalized travel itineraries. Built with React, Gemini AI, Firebase, and TailwindCSS, this full-stack app offers a seamless and intelligent way to plan your next adventure. 🚀</h2>
+# Tripwise - AI-Powered Trip Planner 🌍✈️
 
-<h2>Features 🌟</h2>
+Tripwise is an AI-powered travel planner that creates personalized travel itineraries using React, Gemini AI, Firebase, and TailwindCSS.  It offers a streamlined and intelligent way to plan your next adventure. 🚀
 
-AI-Driven Trip Generation: Tripwise uses advanced AI algorithms to generate customized travel plans based on your preferences, budget, and desired destinations. 🧠✨
+## Features 🌟
 
-Personalized Hotel Recommendations: The app suggests the best accommodations based on your needs, ensuring a comfortable and enjoyable stay. 🏨💤
+*   **AI-Driven Trip Generation:**  Uses advanced AI algorithms to generate customized travel plans based on your preferences, budget, and desired destinations. 🧠✨
+*   **Personalized Hotel Recommendations:** Suggests the best accommodations based on your needs, ensuring a comfortable and enjoyable stay. 🏨💤
+*   **Detailed Itinerary Planning:** Creates a well-structured schedule for your trip, including must-visit attractions and activities. 📅🗺️
+*   **Google Maps Integration:** Visualize your travel plans and navigate easily with the seamless integration of Google Maps. 🗺️🚗
+*   **Secure Authentication:** Protect your travel plans and personal data with the robust Google OAuth authentication system. 🔒🔐
 
-Detailed Itinerary Planning: Tripwise creates a well-structured schedule for your trip, including must-visit attractions and activities. 📅🗺️
+### Technologies Used 💻
 
-Google Maps Integration: Visualize your travel plans and navigate easily with the seamless integration of Google Maps. 🗺️🚗
+*   JavaScript
+*   Google Maps API
+*   Vite
+*   Google OAuth
+*   ShadCn UI
+*   Firebase
+*   Tailwind CSS
 
-Secure Authentication: Protect your travel plans and personal data with the robust Google OAuth authentication system. 🔒🔐
+## Getting Started 🚀
 
+To run Tripwise locally, follow these steps:
 
+1.  **Clone the repository:** (Replace with your actual repository URL if needed)
 
-<h3>Technologies used  💻<li><ul>
-  1.JavaScript<br>
-  2.Google maps api<br>
-  3.Vite<br>
-  4.Google oauth <br>
-  5.ShadCn UI <br>
-  6. Firebase<br>
-  7. Tailwind css</ul>
-</li></h3>
+    ```
+    git clone <repository_url>
+    cd Tripwise
+    ```
 
-First, run the development server: 🏁
+2.  **Install Dependencies:**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-2. install dependencies
-```bash
-cd Tripwise
-npm install
-```
-3.Set up environment variables:
-Create a .env.local file in the project root.
-Add your Google Maps API ,Gemini AI Key & Google oauth key to the file:
-```bash
-GOOGLE_MAPS_API_KEY=your-api-key-here
-VITE_GOOGLE_GEMINI_AI_API_KEY=your-ai-key-here
-VITE_GOOGLE_AUTH_CLIENT_ID=your-client-id-here
+    ```
+    npm install
+    # or
+    yarn install
+    # or
+    pnpm install
+    # or
+    bun install
+    ```
 
-```
+3.  **Set up Environment Variables:**
 
-Start the development server:
-```bash
-npm Run dev
-```
+    *   Create a `.env.local` file in the project root.
+    *   Add your Google Maps API, Gemini AI Key, and Google OAuth client ID to the file:
 
-Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
+        ```
+        GOOGLE_MAPS_API_KEY=your-google-maps-api-key
+        VITE_GOOGLE_GEMINI_AI_API_KEY=your-gemini-ai-api-key
+        VITE_GOOGLE_AUTH_CLIENT_ID=your-google-oauth-client-id
+        ```
 
+    *   **Important:** Replace `your-google-maps-api-key`, `your-gemini-ai-api-key`, and `your-google-oauth-client-id` with your actual API keys and client ID.  Make sure you have enabled the necessary APIs (Google Maps, Gemini API) in your Google Cloud Console and obtained the appropriate credentials.
 
+4.  **Run the Development Server:**
 
-<h2>Live Demo:https://tripwise-ai-trip-planner.vercel.app</h2>
+    ```
+    npm run dev
+    # or
+    yarn dev
+    # or
+    pnpm dev
+    # or
+    bun dev
+    ```
 
+5.  **Open in Browser:**
 
+    Open <http://localhost:5173> with your browser to see the result.
 
+## Live Demo 🌐
+
+[https://tripwise-ai-trip-planner.vercel.app](https://tripwise-ai-trip-planner.vercel.app)
