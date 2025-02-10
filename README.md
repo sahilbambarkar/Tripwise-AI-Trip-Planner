@@ -18,7 +18,7 @@ Secure Authentication: Protect your travel plans and personal data with the robu
 <h3>Technologies used  💻<li><ul>
   1.JavaScript<br>
   2.Google maps api<br>
-  3. Vite<br>
+  3.Vite<br>
   4.Google oauth <br>
   5.ShadCn UI <br>
   6. Firebase<br>
