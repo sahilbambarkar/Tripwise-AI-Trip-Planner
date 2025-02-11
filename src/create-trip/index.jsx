@@ -221,7 +221,7 @@ function CreateTrip() {
             <DialogDescription>
               <div className='flex items-center'>
                 <img src="/logo.png" className='h-14 ml-5' />
-                <div className='text-[30px]'>Tripwise</div>
+                <div className='text-[30px]'>Trip Planner</div>
               </div>
               <h2 className='font-bold text-lg mt-7'>Sign In With Google</h2>
               <p>Sign in to the App with Google authentication securely</p>
