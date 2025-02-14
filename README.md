@@ -74,4 +74,4 @@ To run Tripwise locally, follow these steps:
 
 ## Live Demo 🌐
 
-[https://tripwise-ai-trip-planner.vercel.app](https://tripwise-ai-trip-planner.vercel.app)
+<h2>[Tripwise-AI-Trip-Planner]<h2/>(https://tripwise-ai-trip-planner.vercel.app)
