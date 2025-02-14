@@ -27,7 +27,7 @@ To run Tripwise locally, follow these steps:
 1.  **Clone the repository:** 
 
     ```
-    git clone https://github.com/sahilbambarkar/Tripwise-AI-Trip-Planner
+    git clone https://github.com/sahilbambarkar/Tripwise-AI-Trip-Planner.git
     cd Tripwise-AI-Trip-Planner
     ```
 
