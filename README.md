@@ -24,11 +24,11 @@ Tripwise is an AI-powered travel planner that creates personalized travel itiner
 
 To run Tripwise locally, follow these steps:
 
-1.  **Clone the repository:** (Replace with your actual repository URL if needed)
+1.  **Clone the repository:** 
 
     ```
-    git clone <repository_url>
-    cd Tripwise
+    git clone https://github.com/sahilbambarkar/Tripwise-AI-Trip-Planner
+    cd Tripwise-AI-Trip-Planner
     ```
 
 2.  **Install Dependencies:**
