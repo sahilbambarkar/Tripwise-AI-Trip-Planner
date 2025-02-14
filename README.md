@@ -73,5 +73,4 @@ To run Tripwise locally, follow these steps:
     Open <http://localhost:5173> with your browser to see the result.
 
 ## Live Demo 🌐
-
-<h2>[Tripwise-AI-Trip-Planner]<h2/>(https://tripwise-ai-trip-planner.vercel.app)
+###[Tripwise-AI-Trip-Planner](https://tripwise-ai-trip-planner.vercel.app)
