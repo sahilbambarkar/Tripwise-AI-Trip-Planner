@@ -60,7 +60,7 @@ function CreateTrip() {
   if (!formData?.noOfDays || formData?.noOfDays < 1 || formData?.noOfDays > 5 || !formData?.location || !formData?.budget || !formData?.traveler) {
   setTimeout(() => {
     toast("Please fill all details");
-  }, 3000); 
+  }, 1000); 
   return;
 }
 
