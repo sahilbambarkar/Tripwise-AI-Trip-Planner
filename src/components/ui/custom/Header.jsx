@@ -59,7 +59,7 @@ function Header() {
         {user ? (
           <div className="flex items-center gap-3 hide">
             <a href="mailto:sahilbambarkar007@gmail.com">
-              <Button variant="secondary" className="rounded-full border">
+              <Button variant="primary" className="rounded-full ">
                 Contact Us
               </Button>
             </a>
@@ -70,7 +70,7 @@ function Header() {
             </a>
            
             <a href="/my-trips">
-              <Button variant="outline" className="rounded-full">
+              <Button variant="secondary" className="rounded-full">
                 My Trips
               </Button>
             </a>
