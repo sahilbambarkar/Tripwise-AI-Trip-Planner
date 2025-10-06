@@ -57,10 +57,13 @@ function CreateTrip() {
       return;
     }
   
-    if (!formData?.noOfDays || formData?.noOfDays < 1 || formData?.noOfDays > 5 || !formData?.location || !formData?.budget || !formData?.traveler) {
-      toast("Please fill all details");
-      return;
-    }
+  if (!formData?.noOfDays || formData?.noOfDays < 1 || formData?.noOfDays > 5 || !formData?.location || !formData?.budget || !formData?.traveler) {
+  setTimeout(() => {
+    toast("Please fill all details");
+  }, 3000); 
+  return;
+}
+
     setLoading(true);
     toast('Please wait... We are working on it...');
     
