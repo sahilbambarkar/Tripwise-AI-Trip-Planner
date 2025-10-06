@@ -213,7 +213,7 @@ function CreateTrip() {
         </Button>
       </div>
 
-      <Dialog open={openDailog}>
+      <Dialog open={openDailog} onOpenChange={setOpenDailog}>
 
         <DialogContent>
           <DialogHeader>
