@@ -82,9 +82,9 @@ function Header() {
                   alt="User Profile"
                 />
               </PopoverTrigger>
-              <PopoverContent>
+            <PopoverContent className="rounded-2xl shadow-lg bg-white p-3 min-w-[80px] flex justify-center items-center cursor-pointer text-center hover:text-primary hover:font-bold transition-all"
+              >
                 <h2
-                  className="cursor-pointer text-center hover:text-primary hover:font-bold transition-all"
                   onClick={() => {
                     googleLogout();
                     localStorage.clear();
