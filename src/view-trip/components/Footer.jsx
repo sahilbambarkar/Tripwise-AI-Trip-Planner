@@ -6,7 +6,7 @@ function Footer() {
         <div className='my-7'>
             <div className='flex justify-center items-center'>
         
-                <span className='text-gray-500 font-bold text-xl'>© 2024 Tripwise. All rights reserved.</span>
+                <span className='text-gray-500 font-bold text-xl'>© {new Date().getFullYear()} Tripwise. All rights reserved.</span>
             </div>
             
         </div>
