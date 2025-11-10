@@ -164,7 +164,7 @@ function CreateTrip() {
 
         <div>
           <h2 className='text-xl my-3 font-medium'>How many days are you planning your trip?</h2>
-          <Input placeholder={'Ex.3'} type="number"
+          <Input placeholder={'Ex.3'} type="number" min={1} max={8}
             onChange={(e) => handleInputChange('noOfDays', e.target.value)}
           />
         </div>
